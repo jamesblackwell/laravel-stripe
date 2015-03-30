@@ -20,7 +20,8 @@ class LaravelStripeServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->package('abodeo/laravel-stripe');
+        //note, commented this as it's L4 specific
+        //$this->package('abodeo/laravel-stripe');
 
         /*
          * Load Stripe configuration
